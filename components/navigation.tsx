@@ -4,8 +4,8 @@ import { Hexagon, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const links = [
-  { label: "Our Ventures", href: "#ventures" },
-  { label: "Partnerships", href: "#partnerships" },
+  { label: "Projects", href: "#projects" },
+  { label: "Capabilities", href: "#capabilities" },
   { label: "About", href: "#about" },
 ];
 

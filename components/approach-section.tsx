@@ -5,13 +5,13 @@ const principles = [
   {
     title: "Compliance First",
     description:
-      "We strictly adhere to FTC guidelines and network compliance structures to maintain absolute brand integrity.",
+      "Every property in our portfolio adheres to FTC guidelines and network compliance standards — the same rigor we bring to partner campaigns.",
     Icon: BadgeCheck,
   },
   {
     title: "Data-Driven Content",
     description:
-      "Every partnership leverages audience insights to place the right products in front of the right buyers naturally.",
+      "Audience insights drive editorial decisions, product placement, and conversion optimization across every project we operate.",
     Icon: BarChart3,
   },
 ];
@@ -25,21 +25,21 @@ const pipeline = [
 
 export function ApproachSection() {
   return (
-    <section id="partnerships" className="relative px-6 py-28 lg:px-8">
+    <section id="capabilities" className="relative px-6 py-28 lg:px-8">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-indigo-950/20 via-transparent to-transparent" />
 
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
-            <SectionLabel accent="emerald">Our Approach</SectionLabel>
+            <SectionLabel accent="emerald">How We Market</SectionLabel>
             <h2 className="mt-6 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-              Partner-ready growth systems with{" "}
-              <span className="text-gradient">brand integrity</span> at the center.
+              The systems behind{" "}
+              <span className="text-gradient">the portfolio above.</span>
             </h2>
             <p className="mt-6 text-lg leading-8 text-zinc-400">
-              Our operating model is designed for transparent, white-hat digital
-              growth across editorial content, search discovery, audience
-              development, and commerce optimization.
+              Our projects aren&apos;t one-offs — they run on repeatable
+              marketing systems designed for transparent, white-hat growth across
+              editorial content, search discovery, and commerce optimization.
             </p>
 
             <div className="mt-10 grid gap-5">

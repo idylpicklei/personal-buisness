@@ -18,28 +18,29 @@ export function HeroSection() {
             <div className="mx-auto mb-8 inline-flex items-center gap-2 rounded-full border border-indigo-400/20 bg-indigo-500/10 px-4 py-2 text-sm text-indigo-200 backdrop-blur lg:mx-0">
               <Sparkles className="h-4 w-4 text-emerald-300" />
               <span className="font-mono text-xs uppercase tracking-widest">
-                Venture Studio · Digital Media
+                DC Ventures · Digital Portfolio
               </span>
             </div>
 
             <h1 className="text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
-              <span className="text-gradient">Scaling Digital Innovation.</span>
+              <span className="text-gradient">Proven Digital Properties.</span>
               <br />
-              <span className="text-white">Building Global Brands.</span>
+              <span className="text-white">Built to Perform for Partners.</span>
             </h1>
 
             <p className="mx-auto mt-8 max-w-xl text-lg leading-8 text-zinc-400 lg:mx-0">
-              DC Ventures is a premier venture studio specializing in data-driven
-              affiliate marketing, global e-commerce supply chains, and high-impact
-              digital content creation.
+              DC Ventures builds, operates, and scales multi-channel digital
+              brands. Explore our portfolio of content, commerce, and affiliate
+              projects — proof of the audiences and systems we bring to brand
+              partnerships.
             </p>
 
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
               <a
-                href="#ventures"
+                href="#projects"
                 className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-indigo-500 to-indigo-600 px-7 py-4 text-sm font-semibold text-white shadow-[0_0_40px_rgba(99,102,241,0.35)] transition-all duration-300 hover:-translate-y-0.5 hover:from-indigo-400 hover:to-indigo-500 hover:shadow-[0_0_50px_rgba(99,102,241,0.5)] sm:w-auto"
               >
-                Explore Our Portfolio
+                View Projects
                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
               <a
@@ -51,7 +52,7 @@ export function HeroSection() {
             </div>
 
             <div className="mt-12 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
-              {["Affiliate", "E-Commerce", "Content Media"].map((tag) => (
+              {["Content", "E-Commerce", "Affiliate", "Media"].map((tag) => (
                 <span
                   key={tag}
                   className="flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-zinc-500"

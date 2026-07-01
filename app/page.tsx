@@ -3,8 +3,9 @@ import { ApproachSection } from "@/components/approach-section";
 import { ContactSection } from "@/components/contact-section";
 import { HeroSection } from "@/components/hero-section";
 import { Navigation } from "@/components/navigation";
-import { PillarsSection } from "@/components/pillars-section";
+import { ProjectsSection } from "@/components/projects-section";
 import { SiteFooter } from "@/components/site-footer";
+import { TrackRecordSection } from "@/components/track-record-section";
 import { TechBackground } from "@/components/ui/tech-background";
 
 export default function Home() {
@@ -13,8 +14,8 @@ export default function Home() {
       <TechBackground />
       <Navigation />
       <HeroSection />
-      <PillarsSection />
-      {/* <MetricsSection /> */}
+      <TrackRecordSection />
+      <ProjectsSection />
       <ApproachSection />
       <AboutSection />
       <ContactSection />

@@ -1,12 +1,12 @@
 const items = [
-  "Performance Marketing",
-  "Affiliate Networks",
-  "E-Commerce Ops",
-  "Content Media",
-  "SEO & Analytics",
-  "Supply Chain",
-  "Brand Partnerships",
-  "Data-Driven Growth",
+  "SEO & Organic Growth",
+  "Affiliate Marketing",
+  "Content Publishing",
+  "E-Commerce Operations",
+  "Email Marketing",
+  "Paid Acquisition",
+  "Conversion Optimization",
+  "Partner Compliance",
 ];
 
 export function TechMarquee() {
